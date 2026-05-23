@@ -17,7 +17,7 @@ const sbtn=document.getElementById('sbtn');
 const sinput=document.getElementById('sinput');
 const tdiv=document.getElementById('tdiv');
 
-sbtn.addEventListener('click',()=>{
+sbtn.addEventListener('click', () => {
     if (sinput !==null){
         sdiv.style.display='none';
         tdiv.style.display='flex';
@@ -32,7 +32,7 @@ const div4=document.getElementById('div4');
 const txt4=document.getElementById('txt4');
 
 
-tbtn.addEventListener('click',()=>{
+tbtn.addEventListener('click', () => {
     if (tinput !==null){
 
         tdiv.style.display='none';
